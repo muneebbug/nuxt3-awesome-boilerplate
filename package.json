@@ -1,21 +1,35 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "nuxt3-awesome-boilerplate",
+  "author": "muneebbug",
+  "version": "1.0.0",
+  "description": "a Nuxt 3 boilerplate with a lot of useful features.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muneebbug/nuxt3-awesome-boilerplate"
+  },
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore ."
   },
   "devDependencies": {
-    "@bg-dev/nuxt-naiveui": "^1.7.4",
+    "@bg-dev/nuxt-naiveui": "^1.8.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/device": "^3.1.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/google-fonts": "^3.1.3",
     "@nuxtjs/tailwindcss": "^6.10.3",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "eslint": "^8.56.0",
     "nuxt": "^3.9.0",
     "nuxt-headlessui": "^1.1.5",
     "nuxt-icon": "^0.6.8",
@@ -32,9 +46,19 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.303.0",
+    "naive-ui": "^2.36.0",
     "pinia": "^2.1.7",
     "radix-vue": "^1.2.5",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"
-  }
+  },
+  "keywords": [
+    "Nuxt3",
+    "Boilerplate",
+    "Vue",
+    "TailwindCSS",
+    "TypeScript",
+    "Naive UI",
+    "PWA"
+  ]
 }

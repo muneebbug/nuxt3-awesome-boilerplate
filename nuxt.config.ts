@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: true,
   modules: [
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
@@ -13,7 +14,8 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@bg-dev/nuxt-naiveui',
     'nuxt-purgecss',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    '@nuxtjs/eslint-module',
   ],
   devServer: {
     host: "127.0.0.1"
@@ -35,7 +37,10 @@ export default defineNuxtConfig({
     }
   },
   purgecss: {},
-  tailwindcss: {},
+  tailwindcss: {
+    viewer: false,
+    exposeConfig: false
+  },
   css: [
     '~/assets/css/styles.css',
   ],
@@ -48,6 +53,10 @@ export default defineNuxtConfig({
         prefix: 'Headless'
   },
   shadcn: {
+    prefix: 'Ui',
     componentDir: './components/ui'
+  },
+  naiveui: {
+    colorModePreference: 'system'
   }
 })
