@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/device',
     '@nuxtjs/color-mode',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    'nuxt-icon'
   ],
   devServer: {
     host: "127.0.0.1"
@@ -32,4 +33,9 @@ export default defineNuxtConfig({
   css: [
     '~/assets/styles.css',
   ],
+  googleFonts: {
+    families: {
+
+    }
+  }
 })
