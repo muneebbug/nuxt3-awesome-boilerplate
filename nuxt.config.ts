@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/device',
-    '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     'nuxt-icon',
     '@pinia-plugin-persistedstate/nuxt',
