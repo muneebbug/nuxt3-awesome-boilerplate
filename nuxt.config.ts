@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     'nuxt-icon',
-    '@pinia-plugin-persistedstate/nuxt'
+    '@pinia-plugin-persistedstate/nuxt',
+    'nuxt-headlessui'
   ],
   devServer: {
     host: "127.0.0.1"
@@ -38,5 +39,8 @@ export default defineNuxtConfig({
     families: {
 
     }
-  }
+  },
+  headlessui: {
+        prefix: 'Headless'
+    }
 })
