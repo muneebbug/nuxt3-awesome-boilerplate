@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@bg-dev/nuxt-naiveui',
     'nuxt-purgecss',
+    'shadcn-nuxt'
   ],
   devServer: {
     host: "127.0.0.1"
@@ -36,7 +37,7 @@ export default defineNuxtConfig({
   purgecss: {},
   tailwindcss: {},
   css: [
-    '~/assets/styles.css',
+    '~/assets/css/styles.css',
   ],
   googleFonts: {
     families: {
@@ -45,5 +46,8 @@ export default defineNuxtConfig({
   },
   headlessui: {
         prefix: 'Headless'
-    }
+  },
+  shadcn: {
+    componentDir: './components/ui'
+  }
 })
