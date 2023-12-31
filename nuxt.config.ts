@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/device',
+    '@nuxtjs/color-mode'
   ],
   devServer: {
     host: "127.0.0.1"
