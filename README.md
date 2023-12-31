@@ -24,10 +24,10 @@ This boilerplate is designed to expedite Nuxt 3 projects by integrating essentia
   - Google Fonts integration with **@nuxtjs/google-fonts**
   - TailwindCSS setup using **@nuxtjs/tailwindcss**
   - State persistence with **@pinia-plugin-persistedstate/nuxt**
-  - SEO enhancements with **nuxt-headlessui**
-  - Icon management via **nuxt-icon**
+  - Headless Ui Components with **nuxt-headlessui**
+  - Iconify icons via **nuxt-icon**
   - CSS optimization using **nuxt-purgecss**
-  - **shadcn-nuxt** for [specific purpose]
+  - **shadcn-nuxt** for more flexible ui components
 - **Development Tools**:
   - **ESLint** for code quality
   - **TypeScript** for typed JavaScript
