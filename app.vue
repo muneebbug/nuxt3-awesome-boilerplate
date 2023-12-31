@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <naive-config>
     <NuxtWelcome />
-  </div>
+  </naive-config>
 </template>

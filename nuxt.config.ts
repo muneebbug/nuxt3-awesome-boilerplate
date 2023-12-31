@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     'nuxt-icon',
     '@pinia-plugin-persistedstate/nuxt',
-    'nuxt-headlessui'
+    'nuxt-headlessui',
+    '@bg-dev/nuxt-naiveui'
   ],
   devServer: {
     host: "127.0.0.1"
