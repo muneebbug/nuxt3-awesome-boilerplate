@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
+    '@nuxtjs/device',
   ],
   devServer: {
     host: "127.0.0.1"
@@ -27,6 +28,6 @@ export default defineNuxtConfig({
   },
   tailwindcss: {},
   css: [
-    '~/assets/css/styles.css',
+    '~/assets/styles.css',
   ],
 })
