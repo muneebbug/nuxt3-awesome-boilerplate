@@ -15,19 +15,19 @@ export default defineNuxtConfig({
     '@bg-dev/nuxt-naiveui',
     'nuxt-purgecss',
     'shadcn-nuxt',
-    '@nuxtjs/eslint-module',
+    '@nuxtjs/eslint-module'
   ],
   devServer: {
-    host: "127.0.0.1"
+    host: '127.0.0.1'
   },
   imports: {
     dirs: [
-      "./stores"
-    ],
+      './stores'
+    ]
   },
   pinia: {
     storesDirs: [
-      "./stores"
+      './stores'
     ]
   },
   postcss: {
@@ -39,18 +39,20 @@ export default defineNuxtConfig({
   purgecss: {},
   tailwindcss: {
     viewer: false,
-    exposeConfig: false
+    exposeConfig: true
   },
   css: [
-    '~/assets/css/styles.css',
+    '~/assets/css/styles.css'
   ],
   googleFonts: {
     families: {
-
+      Inter: [
+        400, 500, 600, 700, 800
+      ]
     }
   },
   headlessui: {
-        prefix: 'Headless'
+    prefix: 'Headless'
   },
   shadcn: {
     prefix: 'Ui',

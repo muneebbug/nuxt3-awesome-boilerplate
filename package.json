@@ -46,7 +46,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.303.0",
-    "naive-ui": "^2.36.0",
     "pinia": "^2.1.7",
     "radix-vue": "^1.2.5",
     "tailwind-merge": "^2.2.0",
