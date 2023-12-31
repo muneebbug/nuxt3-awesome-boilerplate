@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     '@nuxtjs/device',
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@pinia-plugin-persistedstate/nuxt'
   ],
   devServer: {
     host: "127.0.0.1"
