@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@pinia/nuxt',
+    '@nuxtjs/tailwindcss'
   ],
   devServer: {
     host: "127.0.0.1"
@@ -16,5 +17,11 @@ export default defineNuxtConfig({
     storesDirs: [
       "./stores"
     ]
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
   },
 })
