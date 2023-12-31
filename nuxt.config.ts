@@ -11,7 +11,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-headlessui',
-    '@bg-dev/nuxt-naiveui'
+    '@bg-dev/nuxt-naiveui',
+    'nuxt-purgecss',
   ],
   devServer: {
     host: "127.0.0.1"
@@ -32,6 +33,7 @@ export default defineNuxtConfig({
       autoprefixer: {}
     }
   },
+  purgecss: {},
   tailwindcss: {},
   css: [
     '~/assets/styles.css',
